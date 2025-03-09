@@ -1,0 +1,53 @@
+﻿PVObject_=pvProject
+  Comment=Solar_Water_Pumping_System
+  Version=8.0.7
+  Flags=$00080080
+PrintSettings=TPrintSettings
+  PrintCoverPage=True
+  ClientDesignation=Client
+  UserDesignation=Author
+  PCNDec=1
+EndTags
+MeteoFileName=Pimpalgaon Raja Road Farm_MN82_SYN.MET
+PVObject_SitePrj=pvSite
+  Comment=Pimpalgaon Raja Road Farm;India;Asia;
+  Flags=$0006283F
+  NomF=Pimpalgaon Raja Road Farm_MN82.SIT
+  Site=Pimpalgaon Raja Road Farm
+  Country=India
+  Region=Asia
+  Source=Meteonorm 8.2 (2001-2020), Sat=100%
+  SourceType=Meteonorm82DLL
+  Latitude=20.7258
+  Longitude=76.5315
+  Altitude=305
+  TimeZone=5.5
+  HLeg=True
+  UnitsDisp=kWh_m2_m
+  Albedo=0.20
+  DateBeg=01/01/80 00:00
+  DateEnd=31/12/80 23:00
+  GlobalH=135.3,145.0,188.1,204.5,210.1,154.6,123.8,120.2,139.3,143.5,130.9,124.1,1819.5,
+  DiffuseH=46.3,57.0,71.6,75.9,87.5,98.0,84.7,82.9,75.8,70.9,53.1,51.5,855.0,
+  TAmb=21.73,25.45,29.62,32.66,36.06,31.54,28.39,27.24,27.37,27.21,24.26,21.75,27.78,
+  WindVel=0.40,0.50,0.60,0.70,1.39,1.30,0.98,0.88,0.70,0.38,0.30,0.29,0.70,
+  Linke=4.604,4.973,5.605,6.349,6.641,6.980,6.244,5.552,5.158,5.265,5.089,4.586,5.589,
+  RelHum=0.501,0.397,0.318,0.288,0.295,0.564,0.743,0.791,0.787,0.619,0.597,0.559,0.539,
+  Extraterr=228.6,237.6,298.3,315.9,338.9,330.6,339.3,330.2,298.7,275.3,230.7,218.6,3442.8,
+  YrToYrVar=4.549
+End of PVObject pvSite
+Albedo=0.200,0.200,0.200,0.200,0.200,0.200,0.200,0.200,0.200,0.200,0.200,0.200,
+DesignTempMin=-10
+TempOper=50
+TempOperMin=20
+TempOperMax=60
+LimOverloadLoss=3.00
+DiscrOrientDiff=6.00
+SpreadMaxDiff=3.00
+MaxSystem_ShdRatio=1.50
+RegionMeteo=1
+CorrAlttemp=-0.0055
+SiteMeteoMaxDistForList=10
+TranspositionAlgorithm=CircSolSeparate
+ACLossesRef=STC
+End of PVObject pvProject

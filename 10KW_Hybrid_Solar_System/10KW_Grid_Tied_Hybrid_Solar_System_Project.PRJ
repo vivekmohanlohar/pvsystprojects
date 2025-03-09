@@ -1,0 +1,54 @@
+﻿PVObject_=pvProject
+  Comment=2KW_Solar_System_Performance_and_Optimization
+  Version=8.0.7
+  Flags=$00080010
+PrintSettings=TPrintSettings
+  PrintCoverPage=True
+  ClientDesignation=Client
+  UserDesignation=Author
+  PCNDec=1
+EndTags
+MeteoFileName=Vaibhav_Suryavanshi_House_MN82_SYN.MET
+MeteoFileDate=09/03/25 18:08
+PVObject_SitePrj=pvSite
+  Comment=Vaibhav_Suryavanshi_House;India;Asia;
+  Flags=$0006283F
+  NomF=Vaibhav_Suryavanshi_House_MN82.SIT
+  Site=Vaibhav_Suryavanshi_House
+  Country=India
+  Region=Asia
+  Source=Meteonorm 8.2 (2001-2020), Sat=100%
+  SourceType=Meteonorm82DLL
+  Latitude=20.7239
+  Longitude=76.5389
+  Altitude=300
+  TimeZone=5.5
+  HLeg=True
+  UnitsDisp=kWh_m2_m
+  Albedo=0.20
+  DateBeg=01/01/80 00:00
+  DateEnd=31/12/80 23:00
+  GlobalH=135.3,145.1,188.2,204.6,210.2,154.6,123.9,120.0,139.3,143.4,130.9,123.8,1819.3,
+  DiffuseH=46.3,57.1,71.9,75.4,88.3,99.0,88.1,80.6,75.1,71.9,52.6,52.3,858.6,
+  TAmb=21.73,25.45,29.61,32.67,36.17,31.54,28.39,27.24,27.37,27.21,24.26,21.75,27.79,
+  WindVel=0.40,0.50,0.60,0.70,1.39,1.30,0.98,0.88,0.70,0.38,0.30,0.29,0.70,
+  Linke=4.607,4.977,5.609,6.355,6.646,6.986,6.250,5.556,5.162,5.269,5.094,4.590,5.593,
+  RelHum=0.501,0.396,0.316,0.286,0.292,0.565,0.746,0.796,0.791,0.620,0.597,0.559,0.540,
+  Extraterr=228.6,237.6,298.3,315.9,338.9,330.6,339.3,330.2,298.7,275.3,230.7,218.6,3442.9,
+  YrToYrVar=4.547
+End of PVObject pvSite
+Albedo=0.200,0.200,0.200,0.200,0.200,0.200,0.200,0.200,0.200,0.200,0.200,0.200,
+DesignTempMin=-10
+TempOper=50
+TempOperMin=20
+TempOperMax=60
+LimOverloadLoss=3.00
+DiscrOrientDiff=6.00
+SpreadMaxDiff=3.00
+MaxSystem_ShdRatio=1.50
+RegionMeteo=1
+CorrAlttemp=-0.0055
+SiteMeteoMaxDistForList=10
+TranspositionAlgorithm=CircSolSeparate
+ACLossesRef=STC
+End of PVObject pvProject

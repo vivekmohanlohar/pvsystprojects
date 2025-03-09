@@ -1,0 +1,54 @@
+﻿PVObject_=pvProject
+  Comment=Vivek Lohar house
+  Version=8.0.7
+  Flags=$00080010
+PrintSettings=TPrintSettings
+  PrintCoverPage=True
+  ClientDesignation=Client
+  UserDesignation=Author
+  PCNDec=1
+EndTags
+MeteoFileName=Vivek Lohar House_MN82_SYN.MET
+MeteoFileDate=28/02/25 14:41
+PVObject_SitePrj=pvSite
+  Comment=Vivek Lohar House;India;Asia;
+  Flags=$0006283F
+  NomF=New.SIT
+  Site=Vivek Lohar House
+  Country=India
+  Region=Asia
+  Source=Vivek Lohar House_MN82.SIT -- Meteonorm 8.2 (2001-2020), Sat=100%
+  SourceType=Meteonorm82DLL
+  Latitude=20.7074
+  Longitude=76.5583
+  Altitude=296
+  TimeZone=5.5
+  HLeg=True
+  UnitsDisp=kWh_m2_m
+  Albedo=0.20
+  DateBeg=01/01/80 00:00
+  DateEnd=31/12/80 23:00
+  GlobalH=135.4,145.1,188.2,204.4,210.3,154.7,125.0,122.1,140.5,143.4,131.0,124.3,1824.4,
+  DiffuseH=46.3,57.2,72.0,75.5,85.1,85.9,82.5,86.3,75.7,68.4,55.0,52.0,841.8,
+  TAmb=21.76,25.47,29.60,32.62,36.05,31.63,28.41,27.26,27.39,27.23,24.28,21.77,27.80,
+  WindVel=0.40,0.50,0.60,0.70,1.39,1.30,1.00,0.89,0.69,0.40,0.30,0.29,0.71,
+  Linke=4.611,4.981,5.613,6.359,6.651,6.990,6.254,5.560,5.165,5.273,5.097,4.593,5.597,
+  RelHum=0.500,0.396,0.320,0.286,0.296,0.560,0.749,0.794,0.791,0.619,0.595,0.558,0.540,
+  Extraterr=228.7,237.7,298.4,315.9,338.9,330.6,339.3,330.2,298.7,275.3,230.8,218.7,3443.2,
+  YrToYrVar=4.544
+End of PVObject pvSite
+Albedo=0.200,0.200,0.200,0.200,0.200,0.200,0.200,0.200,0.200,0.200,0.200,0.200,
+DesignTempMin=-10
+TempOper=50
+TempOperMin=20
+TempOperMax=60
+LimOverloadLoss=3.00
+DiscrOrientDiff=6.00
+SpreadMaxDiff=3.00
+MaxSystem_ShdRatio=1.50
+RegionMeteo=1
+CorrAlttemp=-0.0055
+SiteMeteoMaxDistForList=10
+TranspositionAlgorithm=CircSolSeparate
+ACLossesRef=STC
+End of PVObject pvProject

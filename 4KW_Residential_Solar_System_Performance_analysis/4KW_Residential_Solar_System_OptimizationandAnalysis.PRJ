@@ -1,0 +1,54 @@
+﻿PVObject_=pvProject
+  Comment=4KW_Residential_Solar_System
+  Version=8.0.7
+  Flags=$00080010
+PrintSettings=TPrintSettings
+  PrintCoverPage=True
+  ClientDesignation=Client
+  UserDesignation=Author
+  PCNDec=1
+EndTags
+MeteoFileName=Wether_House_Khamgaon_Maharashta_MN82_SYN.MET
+MeteoFileDate=09/03/25 15:12
+PVObject_SitePrj=pvSite
+  Comment=House_Khamgaon_Maharashta;India;Asia;
+  Flags=$0006283F
+  NomF=House_Khamgaon_Maharashta_MN82.SIT
+  Site=House_Khamgaon_Maharashta
+  Country=India
+  Region=Asia
+  Source=Meteonorm 8.2 (2001-2020), Sat=100%
+  SourceType=Meteonorm82DLL
+  Latitude=20.7154
+  Longitude=76.5356
+  Altitude=303
+  TimeZone=5.5
+  HLeg=True
+  UnitsDisp=kWh_m2_m
+  Albedo=0.20
+  DateBeg=01/01/80 00:00
+  DateEnd=31/12/80 23:00
+  GlobalH=135.5,145.0,188.1,204.4,210.5,154.6,125.3,122.3,140.7,143.5,130.9,124.4,1825.1,
+  DiffuseH=46.2,56.9,71.6,76.0,87.3,93.1,81.5,82.6,78.3,69.8,52.8,50.0,846.2,
+  TAmb=21.73,25.45,29.62,32.66,36.06,31.54,28.38,27.24,27.37,27.22,24.26,21.76,27.78,
+  WindVel=0.40,0.50,0.60,0.70,1.39,1.30,0.99,0.89,0.69,0.39,0.30,0.30,0.70,
+  Linke=4.605,4.975,5.607,6.351,6.643,6.982,6.247,5.554,5.159,5.266,5.091,4.588,5.591,
+  RelHum=0.501,0.397,0.318,0.288,0.295,0.567,0.749,0.789,0.787,0.620,0.597,0.558,0.540,
+  Extraterr=228.6,237.7,298.4,315.9,338.9,330.6,339.3,330.2,298.7,275.3,230.7,218.7,3443.1,
+  YrToYrVar=4.550
+End of PVObject pvSite
+Albedo=0.200,0.200,0.200,0.200,0.200,0.200,0.200,0.200,0.200,0.200,0.200,0.200,
+DesignTempMin=-10
+TempOper=50
+TempOperMin=20
+TempOperMax=60
+LimOverloadLoss=3.00
+DiscrOrientDiff=6.00
+SpreadMaxDiff=3.00
+MaxSystem_ShdRatio=1.50
+RegionMeteo=1
+CorrAlttemp=-0.0055
+SiteMeteoMaxDistForList=10
+TranspositionAlgorithm=CircSolSeparate
+ACLossesRef=STC
+End of PVObject pvProject

@@ -1,0 +1,54 @@
+﻿PVObject_=pvProject
+  Comment=3D_Model_of_MyHouse
+  Version=8.0.7
+  Flags=$00080010
+PrintSettings=TPrintSettings
+  PrintCoverPage=True
+  ClientDesignation=Client
+  UserDesignation=Author
+  PCNDec=1
+EndTags
+MeteoFileName=Nagpur_Dhantoli_MN82_SYN.MET
+MeteoFileDate=27/02/25 16:25
+PVObject_SitePrj=pvSite
+  Comment=Vivek_Lohar_Hoouse;India;Asia;
+  Flags=$0006283F
+  NomF=Vivek_Lohar_House_MN82.SIT
+  Site=Vivek_Lohar_Hoouse
+  Country=India
+  Region=Asia
+  Source=Meteonorm 8.2 (2001-2020), Sat=100%
+  SourceType=Meteonorm82DLL
+  Latitude=20.7154
+  Longitude=76.5349
+  Altitude=307
+  TimeZone=5.5
+  HLeg=True
+  UnitsDisp=kWh_m2_m
+  Albedo=0.20
+  DateBeg=01/01/80 00:00
+  DateEnd=31/12/80 23:00
+  GlobalH=135.5,145.0,188.1,204.4,210.5,154.7,125.2,122.3,140.7,143.5,131.0,124.4,1825.3,
+  DiffuseH=46.2,57.0,71.6,75.9,87.3,98.0,82.6,85.9,78.8,67.7,52.9,51.2,855.2,
+  TAmb=21.73,25.45,29.61,32.66,36.06,31.54,28.30,27.24,27.37,27.22,24.26,21.75,27.77,
+  WindVel=0.40,0.50,0.60,0.70,1.39,1.30,1.00,0.90,0.70,0.41,0.29,0.29,0.71,
+  Linke=4.602,4.972,5.603,6.347,6.638,6.977,6.242,5.550,5.156,5.263,5.088,4.585,5.587,
+  RelHum=0.501,0.397,0.318,0.288,0.295,0.564,0.749,0.790,0.789,0.619,0.601,0.561,0.540,
+  Extraterr=228.6,237.7,298.4,315.9,338.9,330.6,339.3,330.2,298.7,275.3,230.7,218.7,3443.1,
+  YrToYrVar=4.551
+End of PVObject pvSite
+Albedo=0.200,0.200,0.200,0.200,0.200,0.200,0.200,0.200,0.200,0.200,0.200,0.200,
+DesignTempMin=-10
+TempOper=50
+TempOperMin=20
+TempOperMax=60
+LimOverloadLoss=3.00
+DiscrOrientDiff=6.00
+SpreadMaxDiff=3.00
+MaxSystem_ShdRatio=1.50
+RegionMeteo=1
+CorrAlttemp=-0.0055
+SiteMeteoMaxDistForList=10
+TranspositionAlgorithm=CircSolSeparate
+ACLossesRef=STC
+End of PVObject pvProject
